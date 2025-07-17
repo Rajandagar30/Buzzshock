@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  background: url('e.jpg') no-repeat center center fixed;
+  background-size: cover;
+  transition: 0.3s;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.4);
+  z-index: -1;
+  backdrop-filter: blur(8px);
+}
+
+body.dark-mode .overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.8em;
+  color: rgb(59, 108, 243);
+  margin: 20px 0 10px;
+}
+
+body.dark-mode h1 {
+  text-align: center;
+  font-size: 2.8em;
+  color: rgb(215, 227, 106);
+  margin: 20px 0 10px;
+}
+
+
+.lang-select {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 450px;
+  margin: 0 auto 40px;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+body.dark-mode .container {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px 16px;
+  margin: 5px 5px 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 10px;
+  background: #145b9d;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #62c2e8;
+}
+
+#result {
+  font-size: 1em;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+.toggle-bar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  z-index: 10;
+}
+
+
+select {
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid #999;
+  font-size: 0.9em;
+}
