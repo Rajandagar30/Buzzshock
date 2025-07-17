@@ -24,7 +24,7 @@ PDF download of the bill
 This is an estimate tool. Actual bills may vary by provider policies, slab rates, meter readings, and state regulations.
 
 ## 📌 Live Demo
-🔗 View Live
+🔗 https://rajandagar30.github.io/Buzzshock/
 
 ## 🧑🏻‍💻 Developer
 Rajan – Crafted with code, care & clarity 🧠❤️
